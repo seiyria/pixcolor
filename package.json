@@ -1,0 +1,29 @@
+{
+  "name": "pixcolor",
+  "version": "1.0.0",
+  "description": "\u0016A small nodejs utility to get the color of a pixel on the desktop screen.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiyria/pixcolor.git"
+  },
+  "keywords": [
+    "pixel",
+    "color",
+    "desktop",
+    "screen",
+    "pixcolor"
+  ],
+  "author": "Kyle Kemp <kyle@seiyria.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seiyria/pixcolor/issues"
+  },
+  "homepage": "https://github.com/seiyria/pixcolor#readme",
+  "dependencies": {
+    "edge-js": "^11.3.0"
+  }
+}

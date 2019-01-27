@@ -8,10 +8,10 @@ A small nodejs utility to get the color of a pixel on the desktop screen.
 ```js
 import pixcolor from pixcolor;
 
-// synchronous usage
+// synchronous usage - this gets the pixel at coordinate 100, 200
 const color = pixcolor([100, 200], true);
 
-// async usage
+// async usage - this gets the pixel at coordinate 100, 200
 pixcolor([100, 200], (err, color) => {
 
 });
